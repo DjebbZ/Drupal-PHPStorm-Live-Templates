@@ -1,6 +1,6 @@
-h1. PHPStorm Live Templates for Drupal 7
+# PHPStorm Live Templates for Drupal 7
 
-h2. What ? Why ?
+## What ? Why ?
 
 Lazy programmers (i.e. every programmer) like to use code snippets. The goal is
 to write less code and program faster. IDE's (or text editors like VIM) allow
@@ -21,12 +21,12 @@ $ cd /path/to/drupal
 $ find . -name \*.php | xargs grep -l '^function hook_' | \
    xargs /path/to/parse_drupal_api.pl > ~/.WebIde10/config/templates/user.xml
 
-h2. How to use the Live Templates
+## How to use the Live Templates
 
 Just copy the user.xml file into ~/.WebIde10/config/templates
 For security's sake, back up your original user.xml file.
 
-h2. License
+## License
 
 Copyright (C) 2011  Jeremie Le Hen <jeremie@le-hen.org>
 
@@ -43,7 +43,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-h2. Credits
+## Credits
 
 Props to Jeremie Le Hen who wrote the Perl script that generated the templates.
 Special thanks to blup for the original idea and work (VIM snippets for Drupal)
