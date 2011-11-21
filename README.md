@@ -16,7 +16,7 @@ directories. The output is a bit raw, so it needs some love and polish.
 You need Perl in your machine. This script was written under Debian Linux, so
 it may need some adaptations for others OS's.
 
-Type these commands :
+Type these commands :  
 $ cd /path/to/drupal  
 $ find . -name \*.php | xargs grep -l '^function hook_' | \  
    xargs /path/to/parse_drupal_api.pl > ~/.WebIde10/config/templates/user.xml
@@ -25,6 +25,8 @@ $ find . -name \*.php | xargs grep -l '^function hook_' | \
 
 Just copy the user.xml file into ~/.WebIde10/config/templates  
 For security's sake, back up your original user.xml file.
+
+Then, type h_HOOKNAME<tab> in PHPStorm and profit !
 
 ## License
 
