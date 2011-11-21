@@ -11,7 +11,7 @@ for Drupal hooks. It was generated using a Perl script that basically create
 PHPStorm Live Templates from *.api.php files in Drupal /includes and /modules
 directories. The output is a bit raw, so it needs some love and polish.
 
-h2. How to use the script generator
+## How to use the script generator
 
 You need Perl in your machine. This script was written under Debian Linux, so
 it may need some adaptations for others OS's.
@@ -23,7 +23,7 @@ $ find . -name \*.php | xargs grep -l '^function hook_' | \
 
 ## How to use the Live Templates
 
-Just copy the user.xml file into ~/.WebIde10/config/templates
+Just copy the user.xml file into ~/.WebIde10/config/templates  
 For security's sake, back up your original user.xml file.
 
 ## License
@@ -45,5 +45,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Credits
 
-Props to Jeremie Le Hen who wrote the Perl script that generated the templates.
+Props to Jeremie Le Hen who wrote the Perl script that generated the templates.  
 Special thanks to blup for the original idea and work (VIM snippets for Drupal)
