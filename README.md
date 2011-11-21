@@ -17,8 +17,8 @@ You need Perl in your machine. This script was written under Debian Linux, so
 it may need some adaptations for others OS's.
 
 Type these commands :
-$ cd /path/to/drupal
-$ find . -name \*.php | xargs grep -l '^function hook_' | \
+$ cd /path/to/drupal  
+$ find . -name \*.php | xargs grep -l '^function hook_' | \  
    xargs /path/to/parse_drupal_api.pl > ~/.WebIde10/config/templates/user.xml
 
 ## How to use the Live Templates
