@@ -46,4 +46,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ## Credits
 
 Props to Jeremie Le Hen who wrote the Perl script that generated the templates.  
-Special thanks to blup for the original idea and work (VIM snippets for Drupal)
+Special thanks to [blup](https://github.com/blup/snippets) for the original idea and work (VIM snippets for Drupal)
