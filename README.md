@@ -23,10 +23,11 @@ Type these commands :
 
 ## How to use the Live Templates
 
-1. For security's sake, back up your original user.xml file if it exists.
+1. (optional) For security's sake, back up your original user.xml file if it exists.
 2. Copy the user.xml file into ~/.WebIde10/config/templates  
-3. Type `h_HOOKNAME<tab>` for short version, `hook_HOOKNAME<tab>` for annoted version (with core comments)
-4. Profit !
+3. Restart PHPStorm.
+4. Type `h_HOOKNAME<tab>` for short version, `hook_HOOKNAME<tab>` for annoted version (with core comments)
+5. Profit !
 
 ## License
 
