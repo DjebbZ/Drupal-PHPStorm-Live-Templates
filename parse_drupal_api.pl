@@ -76,7 +76,7 @@ while (<>) {
     my $xml_value = join ("\n", @comment, @function);
     $xml_value =~ s/&/&amp;/g;
     $xml_value =~ s/"/&#34;/g;
-    $xml_value =~ s/'/&#44;/g;
+    $xml_value =~ s/'/&#39;/g;
     $xml_value =~ s/</&#60;/g;
     $xml_value =~ s/>/&#62;/g;
     $xml_value =~ s/\n/&#10;/g;
